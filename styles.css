@@ -1,0 +1,25 @@
+body {
+    max-width: 960px;
+    background-color: #be3144;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-wrapper {
+    position: fixed;
+    top: 0;
+}
+
+#navbar {
+    display: flex;
+
+}
+
+#welcome-section {
+    margin-top: 100px;
+    background-color: #27272a;
+    top: 0; 
+}
+
+h1 {
+    color: white;
+}
