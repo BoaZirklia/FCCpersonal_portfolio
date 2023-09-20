@@ -29,7 +29,7 @@ body {
     margin-right: 20px;
 }
 
-a {
+.nav-link {
     font-family: 'Quicksand', sans-serif;
     text-decoration: none;
     font-size: 20px;
@@ -138,6 +138,7 @@ h1, a {
 .trans {
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 .hide {
@@ -206,6 +207,7 @@ h1, a {
     font-family: 'Quicksand', sans-serif;
     transition-duration: 0.5s;
     transition-delay: 0s;
+    text-decoration: none;
 }
 
 .social-media:hover {
@@ -242,9 +244,72 @@ h1, a {
 
 .fcc-link {
     padding: 0;
+    text-decoration: none;
 }
 
 .fcc-link:hover {
     background-color: #303841ff;
 }
 
+@media (min-width: 1536px) {
+    .nav-wrapper {
+        height: 100px;
+    }
+
+    .nav-link {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .welcome {
+        height: 650px;
+    }
+
+    .name {
+        font-size: 60px;
+    }
+
+    .job {
+        font-size: 30px;
+    }
+
+    #projects {
+        margin-top: 720px;
+        height: 85rem;
+    }
+
+    .project-container {
+        width: 1500px;
+    }
+
+    .project-open {
+        width: 700px;
+        font-size: 45px;
+    }
+
+    .project-tile {
+        width: 500px;
+        height: 500px;
+    }
+
+    .tile-pic {
+        width: 500px;
+        height: 500px;
+    }
+
+    .project-title {
+        font-size: 25px;
+    }
+
+    .contacts {
+        top: 130rem;
+    }
+
+    .footer {
+        top: 155rem;
+    }
+
+    .footer-fcc {
+        font-size: 20px;
+    }
+}
